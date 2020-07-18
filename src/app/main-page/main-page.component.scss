@@ -1,0 +1,51 @@
+@import '../../main-styles.scss';
+
+.top-bar {
+    display: flex;
+    width: 100%;
+    height: 220px;
+    background: $primary;
+    h1 {
+        color: rgb(245, 245, 245);
+        font-weight: 600;
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+        margin-top: 60px;
+    }
+    align-items: center;
+    justify-content: center;
+}
+
+.total-budget-section{
+    width: 220px;
+    border: 1px solid rgba(56, 56, 56, 0.473);
+    border-radius: 10px;
+    margin: 32px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5d5a5a;
+    padding: 8px 142px;
+    h2 {
+        font-size: 1.9rem;
+        padding: 8px 0;
+        font-weight: 500;
+        color: #cccccc;
+        &.green {
+            color: $green;
+        }
+        &.red {
+            color: $red;
+        }
+    }
+}
+
+.add-item-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .add-item-container {
+        width: 600px;
+
+    }
+}
